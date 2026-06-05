@@ -1,4 +1,28 @@
 @import "tailwindcss";
+:root {
+  --rose: #d8a7b1;
+  --rose-light: #f8d7da;
+  --beige: #f5e6d3;
+  --lavender: #efe5ff;
+  --dark: #4b4453;
+}
+
+body {
+  font-family: var(--font-poppins);
+  color: var(--dark);
+  background: #fff8f7;
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-playfair);
+}
+
+* {
+  box-sizing: border-box;
+}
 
 :root {
   --background: #ffffff;
