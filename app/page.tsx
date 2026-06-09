@@ -180,17 +180,19 @@ export default function Home() {
         <a
           href="https://wa.me/56932950266"
           target="_blank"
+rel="noopener noreferrer"
           className="bg-green-500 text-white px-8 py-4 rounded-full font-bold"
         >
           WhatsApp
         </a>
 
-        <div className="mt-10">
-          <p className="text-lg">
-            <div className="flex justify-center gap-8 text-4xl mt-8">
+        
+          <div className="mt-10">
+  <div className="flex justify-center gap-8 text-4xl mt-8">
   <a
     href="https://instagram.com/skin_makeupbypaz"
     target="_blank"
+rel="noopener noreferrer"
     className="hover:scale-125 transition"
   >
     <FaInstagram />
@@ -210,8 +212,8 @@ export default function Home() {
     <FaTiktok />
   </a>
 </div>
-          </p>
-        </div>
+</div>
+    
       </section>
 
       {/* FOOTER */}
