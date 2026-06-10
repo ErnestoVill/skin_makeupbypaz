@@ -43,12 +43,13 @@ export default function Home() {
         }}
       >
         <div className="bg-white/85 backdrop-blur-xl p-12 rounded-[40px] shadow-2xl max-w-3xl border border-white">
-          <h1 className="text-6xl md:text-8xl font-bold mb-6 tracking-wide">
-            PAZ VILLA
-          </h1>
-          <h2>
-            Cosmetologa y Estetisista Profesional
-          </h2>
+          <h1 className="text-6xl md:text-8xl font-bold mb-2 tracking-wide">
+  PAZ VILLA
+</h1>
+
+<p className="text-lg md:text-2xl text-gray-600 mb-6">
+  Cosmetóloga y Esteticista Integral
+</p>
 
           <p className="text-xl md:text-3xl mb-10 font-light">
             Realzando tu belleza natural
