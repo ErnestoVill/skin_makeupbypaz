@@ -42,27 +42,41 @@ export default function Home() {
           backgroundPosition: "center",
         }}
       >
-        <div className="bg-white/85 backdrop-blur-xl p-12 rounded-[40px] shadow-2xl max-w-3xl border border-white">
-          <h1 className="text-6xl md:text-8xl font-bold mb-2 tracking-wide">
-  PAZ VILLA
-</h1>
+        <div className="bg-white/85 backdrop-blur-xl p-12 rounded-[40px] shadow-2xl max-w-5xl border border-white">
+  <div className="flex flex-col md:flex-row items-center gap-10">
 
-<p className="text-lg md:text-2xl text-gray-600 mb-6">
-  Cosmetóloga y Esteticista Integral
-</p>
+    <div className="text-center md:text-left">
+      <h1 className="text-6xl md:text-8xl font-bold mb-2 tracking-wide">
+        PAZ VILLA
+      </h1>
 
-          <p className="text-xl md:text-3xl mb-10 font-light">
-            Realzando tu belleza natural
-          </p>
+      <p className="text-xl md:text-2xl font-medium text-[#D8A7B1] mb-4">
+        Cosmetóloga y Esteticista Integral
+      </p>
 
-          <a
-            href="https://wa.me/56932950266"
-            target="_blank"
-            className="bg-[#D8A7B1] text-white px-8 py-4 rounded-full font-semibold hover:scale-105 transition"
-          >
-            Reservar Hora
-          </a>
-        </div>
+      <p className="text-xl md:text-3xl mb-8 font-light">
+        Realzando tu belleza natural
+      </p>
+
+      <a
+        href="https://wa.me/56932950266"
+        target="_blank"
+        className="bg-[#D8A7B1] text-white px-8 py-4 rounded-full font-semibold hover:scale-105 transition"
+      >
+        Reservar Hora
+      </a>
+    </div>
+
+    <div>
+      <img
+        src="/paz-profile.png"
+        alt="Paz Villa"
+        className="w-64 h-64 object-cover rounded-full border-4 border-[#F4D6DB] shadow-2xl"
+      />
+    </div>
+
+  </div>
+</div>
       </section>
 
       {/* SOBRE NOSOTROS */}
