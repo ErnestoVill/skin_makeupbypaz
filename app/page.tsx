@@ -54,6 +54,10 @@ export default function Home() {
         Cosmetóloga y Esteticista Integral
       </p>
 
+      <p className="text-red-600 text-2xl font-bold">
+  VERSION JUNIO 2026
+</p>
+
       <p className="text-xl md:text-3xl mb-8 font-light">
         Realzando tu belleza natural
       </p>
