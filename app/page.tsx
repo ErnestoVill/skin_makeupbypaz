@@ -46,6 +46,9 @@ export default function Home() {
           <h1 className="text-6xl md:text-8xl font-bold mb-6 tracking-wide">
             PAZ VILLA
           </h1>
+          <h2>
+            Cosmetologa y Estetisista Profesional
+          </h2>
 
           <p className="text-xl md:text-3xl mb-10 font-light">
             Realzando tu belleza natural
