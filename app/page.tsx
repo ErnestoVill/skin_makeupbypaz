@@ -141,15 +141,22 @@ export default function Home() {
 
         <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-6">
 
-          {[1, 2, 3, 4, 5, 6].map((img) => (
-            <img
-              key={img}
-              src={`https://picsum.photos/500/500?random=${img}`}
-              alt="Trabajo realizado"
-              className="rounded-3xl shadow-xl hover:scale-105 hover:shadow-2xl transition duration-300"
-            />
-          ))}
-        </div>
+  {[
+    "/manicure 1.jpeg",
+    "/Maquillaje Noche 1",
+    "/Maquillaje Artistico.jpeg",
+    "/Manicure 10.jpeg",
+    "/FX brazo.jpeg",
+    "/Manicure 14.jpeg",
+  ].map((foto, index) => (
+    <img
+      key={index}
+      src={foto}
+      alt={`Trabajo ${index + 1}`}
+      className="w-full h-[400px] object-cover rounded-3xl shadow-xl hover:scale-105 hover:shadow-2xl transition duration-300"
+    />
+  ))}
+</div>
       </section>
 
       {/* TESTIMONIOS */}
