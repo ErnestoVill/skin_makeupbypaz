@@ -143,7 +143,7 @@ export default function Home() {
 
   {[
     "/manicure 1.jpeg",
-    "/Maquillaje Noche 1",
+    "/Maquillaje Noche 1.jpeg",
     "/Maquillaje Artistico.jpeg",
     "/Manicure 10.jpeg",
     "/FX brazo.jpeg",
