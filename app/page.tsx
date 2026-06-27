@@ -111,7 +111,7 @@ export default function Home() {
             "Maquillaje FX",
             "Limpieza Facial",
             "Hidratación Facial",
-            "lifting de Pestañas",
+            "Lifting de Pestañas",
             "Laminado de Cejas",
             "Manicure",
           ].map((servicio) => (
