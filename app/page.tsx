@@ -108,11 +108,11 @@ export default function Home() {
           {[
             "Maquillaje Social",
             "Maquillaje Novias",
-            "Maquillaje Editorial",
+            "Maquillaje FX",
             "Limpieza Facial",
             "Hidratación Facial",
-            "Dermaplaning",
-            "Asesoría Skincare",
+            "lifting de Pestañas",
+            "Laminado de Cejas",
             "Manicure",
           ].map((servicio) => (
             <div
